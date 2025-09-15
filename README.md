@@ -1,12 +1,22 @@
 # FireRedChat pVAD plugin for LiveKit Agents
 
-This plugin provides FireRedChat's open-weight personalized VAD model for LiveKit Agents.
+This plugin provides FireRedChat's open-weight personalized VAD model for LiveKit Agents. 
+
+For speaker embedding update to work properly, please use [our fork of LiveKit Agents](https://github.com/FireRedTeam/FireRedChat) or modify your branch alike to include the ***update_speaker*** call for the first user utterance.
 
 ## Installation
 
 ```bash
-pip install livekit-plugins-fireredchat-pvad
+pip install -e .
 ```
+
+## Download model
+
+```bash
+python3 your_agent_worker.py download-files
+```
+or download directly from [huggingface](
+https://huggingface.co/FireRedTeam/fireredchat-pvad)
 
 ## Usage
 
