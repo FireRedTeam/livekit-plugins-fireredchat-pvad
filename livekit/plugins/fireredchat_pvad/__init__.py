@@ -35,7 +35,7 @@ class FireRedpVadPlugin(Plugin):
     def download_files(self) -> None:
         from huggingface_hub import snapshot_download
         snapshot_download(
-            repo_id="FireRedTeam/fireredchat-pvad",
+            repo_id="FireRedTeam/FireRedChat-pvad",
             local_dir=os.path.join(os.path.dirname(__file__), "resources")
         )
 
