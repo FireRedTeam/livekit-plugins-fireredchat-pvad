@@ -1,3 +1,4 @@
+# Modification copyright 2025 FireRedTeam
 # Copyright 2023 LiveKit, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,9 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Silero VAD plugin for LiveKit Agents
 
-See https://docs.livekit.io/build/turns/vad/ for more information.
+"""FireRedChat pVAD plugin for LiveKit Agents
 """
 
 import os
